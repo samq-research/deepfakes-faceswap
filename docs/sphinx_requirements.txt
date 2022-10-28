@@ -18,3 +18,4 @@ pynvx==1.0.0 ; sys_platform == "darwin"
 plaidml-keras==0.7.0
 tensorflow==2.2.0
 typing-extensions
+keras>=2.6.0rc3 # not directly required, pinned by Snyk to avoid a vulnerability
